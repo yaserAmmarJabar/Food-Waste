@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0221D6A42B9EDD6500DDCF9B /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221D6A32B9EDD6500DDCF9B /* StatisticsView.swift */; };
 		0221D6A72B9F05FE00DDCF9B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0221D6A62B9F05FE00DDCF9B /* SwiftUICharts */; };
+		0221D6AA2BA8172F00DDCF9B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221D6A92BA8172F00DDCF9B /* Color.swift */; };
 		0229522C2B545B0C00684DF3 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229522B2B545B0C00684DF3 /* DataScannerView.swift */; };
 		029F808E2B484900001D1309 /* Green_FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F808D2B484900001D1309 /* Green_FoodApp.swift */; };
 		029F80902B484900001D1309 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F808F2B484900001D1309 /* CameraView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0221D6A32B9EDD6500DDCF9B /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		0221D6A92BA8172F00DDCF9B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0229522B2B545B0C00684DF3 /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 		029F808A2B484900001D1309 /* Green Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		029F808D2B484900001D1309 /* Green_FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_FoodApp.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 			path = "Camera Files";
 			sourceTree = "<group>";
 		};
+		0221D6A82BA8171500DDCF9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0221D6A92BA8172F00DDCF9B /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		029F80812B484900001D1309 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		029F808C2B484900001D1309 /* Green Food */ = {
 			isa = PBXGroup;
 			children = (
+				0221D6A82BA8171500DDCF9B /* Extensions */,
 				029F808D2B484900001D1309 /* Green_FoodApp.swift */,
 				029F809B2B505450001D1309 /* ViewModel.swift */,
 				029FE57F2B68D20300D8BA75 /* HomeView.swift */,
@@ -167,6 +178,7 @@
 			files = (
 				029F80902B484900001D1309 /* CameraView.swift in Sources */,
 				0221D6A42B9EDD6500DDCF9B /* StatisticsView.swift in Sources */,
+				0221D6AA2BA8172F00DDCF9B /* Color.swift in Sources */,
 				029F809C2B505450001D1309 /* ViewModel.swift in Sources */,
 				029F808E2B484900001D1309 /* Green_FoodApp.swift in Sources */,
 				029FE5802B68D20300D8BA75 /* HomeView.swift in Sources */,
