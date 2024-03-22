@@ -12,6 +12,20 @@ struct HomeView: View {
     @State private var date = Date()
     
     var body: some View {
+        TabView {
+            bodyContent
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            
+            StatisticsView()
+                .tabItem {
+                    Label("Summary", systemImage: "list.bullet")
+                }
+        }
+    }
+    
+    private var bodyContent: some View {
         NavigationStack {
             ZStack {
                 VStack {
@@ -25,7 +39,6 @@ struct HomeView: View {
                     Spacer()
                 }
             }
-            
             .padding()
             .navigationTitle("Home")
             .toolbar {
@@ -39,6 +52,7 @@ struct HomeView: View {
                 CameraView(isPresented: $didStartScanning)
             }
         }
+        
     }
     
     private func startScanning() {

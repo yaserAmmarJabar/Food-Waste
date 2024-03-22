@@ -131,7 +131,7 @@ struct StatisticsView: View {
     }
     
     struct UIConstants {
-        static let accentColor = Color.purple
+        static let accentColor = Color.green
     }
 }
 
