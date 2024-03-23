@@ -54,7 +54,7 @@ struct HomeView: View {
         }
         
     }
-    
+    // add some code
     private func startScanning() {
         didStartScanning = true
     }
