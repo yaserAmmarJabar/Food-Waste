@@ -75,7 +75,7 @@ struct CameraView: View {
         return VStack {
             HStack {
                 Button {
-                    
+                    isPresented = false
                 } label: {
                     Text("Cancel")
                 }

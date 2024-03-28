@@ -29,6 +29,7 @@ struct HomeView: View {
         NavigationStack {
             ZStack {
                 VStack {
+                    // TODO: - Need to create 'The Dashboard'
                     DatePicker(
                         "Start Date",
                         selection: $date,
@@ -48,7 +49,7 @@ struct HomeView: View {
                     Image(systemName: "camera")
                 }
             }
-            .sheet(isPresented: $didStartScanning) {
+            .fullScreenCover(isPresented: $didStartScanning) {
                 CameraView(isPresented: $didStartScanning)
             }
         }

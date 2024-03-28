@@ -28,7 +28,7 @@ struct StatisticsView: View {
         NavigationStack {
             VStack {
                 weeklyGoal
-                
+                // update
                 barChart
                     .navigationTitle("Summary")
             }
